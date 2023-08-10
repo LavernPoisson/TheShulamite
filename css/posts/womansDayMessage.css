@@ -93,11 +93,11 @@ body{
     }
 
     .heading{
-        padding-left: 3.3em;
+        padding-left: 3em;
     }
 
     #Body ul{
         width: 80vw;
-        font-size: .7em;
+        font-size: .8em;
     }
 }
