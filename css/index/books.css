@@ -1,0 +1,63 @@
+#books{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: 200px;
+}
+
+#books .book_cover{
+    background-color: rgb(234, 233, 233);
+    border-color: rgba(0, 0, 0, 0.325);
+    border-width: 10px;
+    border-style: inset;
+}
+
+#books p{
+    width: 600px;
+    text-align: center;
+    align-self: center;
+    line-height: 40px;
+
+    margin-top: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+
+    background-color: rgba(188, 143, 143, 0.489);
+}
+
+#books h2{
+    margin-left: 5px;
+    font-family: 'Nova Flat', cursive;
+}
+
+#books a{
+    color: rgb(222, 115, 222);
+    text-decoration: none;
+}
+
+#books a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:540px) {
+
+    #books img{
+        width: 300px;
+        align-self: center;
+    }
+    
+    #books p{
+        width: 300px;
+        line-height: 30px;
+    
+        margin-top: 40px;
+        font-size: 15px;
+    
+    }
+    
+    #books h2{
+        font-size: 17px;
+        align-self: center;
+    }
+}
