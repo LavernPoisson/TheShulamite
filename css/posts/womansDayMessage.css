@@ -98,6 +98,8 @@ body{
 
     #Body ul{
         width: 80vw;
+        padding-left: 1em;
         font-size: .8em;
+        font-weight: bold;
     }
 }
