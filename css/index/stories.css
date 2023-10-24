@@ -58,13 +58,18 @@
     #stories a {
         font-size: 15px;
     }
+
+    #messages {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
 #messages {
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
-    padding-left: 20%;
+    padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 100px;
     padding-top: 50px;
