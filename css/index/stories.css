@@ -64,8 +64,8 @@
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 20%;
+    padding-right: 80px;
     padding-bottom: 100px;
     padding-top: 50px;
     border-radius: 50px;
