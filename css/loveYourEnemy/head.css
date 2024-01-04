@@ -1,0 +1,38 @@
+#head h1{
+    font-family: 'PT Serif', serif;
+    font-size: 80px;
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+#progressBar{
+    height: 10px;
+    background-color: black;
+}
+
+.progressBarContainer{
+    height: 10px;
+    width: 116px;
+}
+
+.audioPlayerContainer{
+    width: 117px;
+    height: 40px;
+}
+
+.audioPlayerContainer img{
+    width: 20px;
+    height: 20px;
+}
+
+@media(max-width:540px){
+
+    #head{
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+
+    #head h1{
+        font-size: 20px;
+    }
+}
