@@ -79,6 +79,10 @@ body{
     width: 60vw;
 }
 
+#Body p{
+    width: 60vw;
+}
+
 #footer_container{
     display: flex;
     flex-direction: column;
@@ -97,6 +101,13 @@ body{
     }
 
     #Body ul{
+        width: 80vw;
+        padding-left: 1em;
+        font-size: .8em;
+        font-weight: bold;
+    }
+
+    #Body p{
         width: 80vw;
         padding-left: 1em;
         font-size: .8em;
