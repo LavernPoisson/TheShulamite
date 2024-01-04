@@ -1,0 +1,12 @@
+#player{
+    position: relative;
+    bottom: -400px;
+}
+
+@media(max-width:540px) {
+
+    #player{
+        height: 200px;
+        width: 300px;
+    }
+}
